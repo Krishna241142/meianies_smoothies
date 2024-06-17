@@ -9,6 +9,7 @@ st.write(
     """)
 
 import streamlit as st
+import requests
 
 name_on_order = st.text_input('Name on Smoothie:')
 st.write('The name on your smoothie will be:', name_on_order)
@@ -46,7 +47,7 @@ if ingredients_list:
 
         st.success('Your Smoothie is ordered!', icon="✅")
 
-import requests
+
 
 
      
